@@ -1,0 +1,192 @@
+.logotipoIcon {
+  width: 280px;
+  height: 57.2px;
+  position: relative;
+  object-fit: cover;
+}
+.buzly {
+  margin: 0;
+  width: 804px;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 2;
+}
+.owner {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.ownersIcon {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  object-fit: cover;
+}
+.detalhes,
+.tipoDeArquivo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tipoDeArquivo {
+  flex-direction: column;
+  gap: var(--gap-40);
+}
+.detalhes {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  gap: 96px;
+  z-index: 1;
+  font-size: var(--font-size-32);
+  font-family: var(--font-neue-montreal);
+}
+.contentParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: 147px;
+}
+.contentParent,
+.coverInner,
+.frameWrapper,
+.logotipoParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  padding: 0 0 0 36px;
+  box-sizing: border-box;
+}
+.coverInner,
+.logotipoParent {
+  flex-direction: column;
+}
+.logotipoParent {
+  align-self: stretch;
+  flex: 1;
+  gap: 281.8px;
+  text-align: left;
+  font-size: 140px;
+  color: var(--color-white);
+  font-family: var(--font-sora);
+}
+.coverInner {
+  padding: 124px 0 0;
+  box-sizing: border-box;
+}
+.logoInsanyIcon {
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+.background,
+.cover {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.background {
+  height: 1080px;
+  background-color: var(--color-mediumslateblue);
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 160px;
+  min-width: 641px;
+  max-width: 100%;
+}
+.cover {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 124px;
+  gap: 262px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1825px) {
+  .background,
+  .coverInner,
+  .logoInsanyIcon {
+    flex: 1;
+  }
+  .cover {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .coverInner {
+    padding-top: 81px;
+    box-sizing: border-box;
+  }
+  .background,
+  .coverInner {
+    min-width: 100%;
+  }
+  .cover {
+    gap: 131px;
+    padding-left: 62px;
+    padding-right: 62px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .detalhes {
+    gap: 48px;
+  }
+  .contentParent {
+    gap: 73px;
+  }
+  .logotipoParent {
+    gap: 141px;
+  }
+  .cover,
+  .coverInner {
+    box-sizing: border-box;
+  }
+  .coverInner {
+    padding-top: 53px;
+  }
+  .cover {
+    gap: 65px;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .detalhes {
+    gap: 24px;
+  }
+  .contentParent {
+    gap: 37px;
+  }
+  .logotipoParent {
+    gap: 70px;
+  }
+  .background {
+    padding: 104px 20px;
+    box-sizing: border-box;
+  }
+}

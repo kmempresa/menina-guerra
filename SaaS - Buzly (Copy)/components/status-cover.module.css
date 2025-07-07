@@ -1,0 +1,32 @@
+.vectorIcon {
+  width: 32px;
+  position: relative;
+  height: 21.3px;
+}
+.construo {
+  position: relative;
+  font-size: var(--font-size-32);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.status,
+.statusCover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.status {
+  justify-content: flex-start;
+  gap: var(--gap-16);
+}
+.statusCover {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-16) var(--padding-32);
+  background-color: var(--color-coral);
+  border-radius: 92px;
+  overflow: hidden;
+  justify-content: center;
+}

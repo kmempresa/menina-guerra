@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neue+Montreal:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Color */
+  --color-mediumslateblue: #8269e9;
+  --color-coral: #fe8539;
+  --color-whitesmoke: #eaeaea;
+  --color-white: #fff;
+  --color-gray-200: #030309;
+  --color-gray-100: #040405;
+
+  /* Gap */
+  --gap-16: 16px;
+  --gap-20: 20px;
+  --gap-40: 40px;
+
+  /* Padding */
+  --padding-16: 16px;
+  --padding-32: 32px;
+
+  /* Font */
+  --font-inter: Inter;
+  --font-neue-montreal: Neue Montreal;
+  --font-sora: Sora;
+
+  /* FontSize */
+  --font-size-32: 32px;
+}
